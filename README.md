@@ -28,13 +28,18 @@ A secure face and ID verification access system powered by **InsightFace**, **Ko
 > _Screenshots coming soon..._
 
 ## 📂 Project Structure
-
 FaceID/
+
 ├── backend/
+
 │   └── FastAPI server, ML models, database logic
+
 ├── frontend/
+
 │   └── Jetpack Compose Android app
+
 ├── README.md
+
 └── .gitignore
 
 ## 🛠️ Setup Instructions
@@ -47,5 +52,10 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 
 ### Frontend
+First you need to change the IP address in built 
+Then build APK and run on your device
+For admin restricted is limited to changes in frontend so add your username and password in frontend itself
+
