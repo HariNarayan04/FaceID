@@ -28,19 +28,17 @@ A secure face and ID verification access system powered by **InsightFace**, **Ko
 > _Screenshots coming soon..._
 
 ## 📂 Project Structure
+<pre>
+```
 FaceID/
-
-├── backend/
-
-│   └── FastAPI server, ML models, database logic
-
-├── frontend/
-
-│   └── Jetpack Compose Android app
-
+├── backend/                   # FastAPI server, ML models, database logic
+├── frontend/                  # Jetpack Compose Android app
+│   └── ...
+├── LICENSE
 ├── README.md
-
 └── .gitignore
+```
+</pre>
 
 ## 🛠️ Setup Instructions
 
