@@ -43,14 +43,15 @@ A secure face and ID verification access system powered by **InsightFace**, **Ko
 <pre>
 ```
 FaceID/
-├── Create_Database/              # To test the app
-    ├── Valid_User_Database/      #
+├── Create_Database/              # First you need to create a user database which are going to access the permises
+    ├── Valid_User_Database/      # Add your user's images named by ID(Rollno.) to this folder 
     ├── NewClearDB.py
     ├── NewDBInsight.py
-    └── NewStoreEmbedding.py
+    └── NewStoreEmbedding.py      # Run this file to generate User.db then transfer that file to FaceID_Backend/app/ml
+
 ├── FaceID_Backend/               # FastAPI server, ML models, database logic
-    ├── app/                      #
-        ├── ml/                   #
+    ├── app/                      # Main SRC folder that contains complete backend logic
+        ├── ml/                   # Folder which contain core face recognition logic
             ├── User.db
             ├── databaselog.txt   
             ├── ml_init.py
@@ -65,19 +66,23 @@ FaceID/
         ├── record_logger.py
         ├── utils.py
         └── view_record.py
-    ├── uploads/                  #
+    ├── uploads/                  # Here your uploaded/captured image will be stored for processing (keep on replacing)
         └── ...
-    ├── faceid_users.db
-    └── records.db
-├── Google_Colab_File/            #
+    ├── faceid_users.db           # This is database of Security personals allowed by admin to use this app
+    └── records.db                # Contains Entry/Exit logs
+
+├── Google_Colab_File/            # This contains code for large dataset to be run on colab to compute Bayesian Threshold
     ├── CALFW_Image_Dataset/
-    ├── Final_Result/
+    ├── Final_Result/             # Gives a highly detailed result upon running files in proper order (*check file paths)
     └── ...
+
 ├── frontend/                     # Jetpack Compose Android app
     └── ...
+    
+├── Screenshots/                  # Sample Screenshots of the Andorid app in use
 ├── .gitignore
 ├── LICENSE
-├── Project_Report.pdf            #
+├── Project_Report.pdf            # A detailed report over learning, experiment and observations (*For institute purpose)
 ├── README.md
 └── requirements.txt
 ```
