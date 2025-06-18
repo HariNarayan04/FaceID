@@ -9,7 +9,7 @@ A secure face and ID verification access system powered by **InsightFace**, **Ko
 ## 🧠 Tech Stack
 
 - **Frontend**: Kotlin (Jetpack Compose)
-- **Backend**: Python (FastAPI)
+- **Backend**: Python(3.13.5) (FastAPI)
 - **Face Recognition**: InsightFace (ArcFace model)
 - **Database**: SQLite (configurable)
 - **Deployment**: Not Ready Yet
@@ -61,7 +61,8 @@ FaceID/
     └── ...
 
 ├── frontend/                     # Jetpack Compose Android app
-    └── ...
+    ├── Basicapp                  # Contains complete Andorid app package
+    └── .gitignore             
 
 ├── Screenshots/                  # Sample Screenshots of the Andorid app in use
 ├── .gitignore
@@ -106,20 +107,40 @@ Find your IP address and note it down it will be required in frontend
 (*Make sure both frontend and backend are running on same IP address)
 
 ### Frontend
+Open Basicapp folder in Android Studio
+Make these changes
+1. IP address in 'BasicApp/app/src/main/java/com/example/basicapp/api/RetrofitInstance.kt' and 'BasicApp/app/src/main/res/xml/network_security_config.xml'. Change given IP address with the one you got in previous(backend) step.
+2. Go to file 'BasicApp/app/src/main/java/com/example/basicapp/screens/AdminUIScreen.kt' line 95 and set admin username and password according to your convenience.
 
+Now build the app and get apk, install on your device.
+Login to admin dashboard using above ID and password then create Security personal and share them with the security person which now can use this app to automatically log access details using Face and ID verification.
+
+
+## 🤝 Contributing
+
+We welcome contributions! If you'd like to fix a bug, improve documentation, or add a new feature, please check out our [contributing guidelines](CONTRIBUTING.md) to get started.
+
+## 🙌 Acknowledgements
+
+This project combines open-source tools and frameworks including [InsightFace](https://github.com/deepinsight/insightface), [FastAPI](https://fastapi.tiangolo.com/), and [Jetpack Compose](https://developer.android.com/jetpack/compose). Special thanks to the developers and maintainers of these amazing libraries.
+
+---
+
+### 📫 Contact
+
+Have questions or feedback? Feel free to reach out or open an issue on GitHub.
+
+---
+
+Thank you for checking out **FaceID**! We hope it inspires new ideas in secure access systems using AI. 🚀
 
 ## 📸 Sample Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
-  <img src="Screenshots/image.png" alt="Front Page" width="30%" />
-  <img src="Screenshots/image-1.png" alt="Security_Person Login" width="30%" />
   <img src="Screenshots/image-2.png" alt="Security Dashboard" width="30%" />
-  <img src="Screenshots/image-3.png" alt="Camera Screen" width="30%" />
-  <img src="Screenshots/image-4.png" alt="Image Upload" width="30%" />
   <img src="Screenshots/image-5.png" alt="Manual Rollno. Entry" width="30%" />
   <img src="Screenshots/image-6.png" alt="Result Screen" width="30%" />
   <img src="Screenshots/image-7.png" alt="Admin Login" width="30%" />
-  <img src="Screenshots/image-8.png" alt="Admin Dashboard" width="30%" />
   <img src="Screenshots/image-9.png" alt="Security Person Management" width="30%" />
   <img src="Screenshots/image-10.png" alt="Verification Record" width="30%" />
 </div>
