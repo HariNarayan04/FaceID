@@ -65,6 +65,7 @@ FaceID/
     └── .gitignore             
 
 ├── Screenshots/                  # Sample Screenshots of the Andorid app in use
+├── CONTRIBUTING.md
 ├── .gitignore
 ├── LICENSE
 ├── Project_Report.pdf            # A detailed report over learning, experiment and observations (*For institute purpose)
