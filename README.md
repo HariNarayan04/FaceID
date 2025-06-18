@@ -25,7 +25,7 @@ A secure face and ID verification access system powered by **InsightFace**, **Ko
 
 ## 📸 Sample Screenshots
 
-> _Screenshots coming soon..._
+> ![Front Page](image.png), ![Security_Person Login](image-1.png), ![Security Dashboard](image-2.png), ![Camera Screen](image-3.png), ![Image Upload](image-4.png), ![Manual Rollno. Entry](image-5.png), ![Result Screen](image-6.png), ![Admin Login](image-7.png), ![Admin Dashboard](image-8.png), ![Security Person Management](image-9.png), ![Varification Record](image-10.png)
 
 ## 📂 Project Structure
 <pre>
