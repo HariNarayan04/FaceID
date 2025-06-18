@@ -31,7 +31,7 @@ FaceID/
     ├── Valid_User_Database/      # Add your user's images named by ID(Rollno) to this folder 
     ├── NewClearDB.py
     ├── NewDBInsight.py
-    └── NewStoreEmbedding.py      # Run this file to generate User.db then transfer that file to FaceID_Backend/app/ml
+    └── NewStoreEmbedding.py      # Run this file to generate User.db then transfer that file to `FaceID_Backend/app/ml`
 
 ├── FaceID_Backend/               # FastAPI server, ML models, database logic
     ├── app/                      # Main SRC folder that contains complete backend logic
@@ -87,9 +87,9 @@ pip install -r requirements.txt
 ```
 
 Create Database of users who will be accessing the permises:
-1. Save images of all such users named by their ID(Rollno.) in 'FaceID/Create_Database/Valid_User_Database' (A sample is already given).
+1. Save images of all such users named by their ID(Rollno.) in `FaceID/Create_Database/Valid_User_Database` (A sample is already given).
 2. Run NewStoreEmbedding.py file which will generate "User.db" file.
-3. Move "User.db" to 'FaceID_Backend/app/ml'.
+3. Move "User.db" to `FaceID_Backend/app/ml`.
 
 ### Google Collab File(Optional)
 1. Replace Dataset: CALFW_Image_Dataset with your required one (Or this is best).
@@ -110,8 +110,8 @@ Find your IP address and note it down it will be required in frontend
 ### Frontend
 Open Basicapp folder in Android Studio
 Make these changes
-1. IP address in 'BasicApp/app/src/main/java/com/example/basicapp/api/RetrofitInstance.kt' and 'BasicApp/app/src/main/res/xml/network_security_config.xml'. Change given IP address with the one you got in previous(backend) step.
-2. Go to file 'BasicApp/app/src/main/java/com/example/basicapp/screens/AdminUIScreen.kt' line 95 and set admin username and password according to your convenience.
+1. IP address in `BasicApp/app/src/main/java/com/example/basicapp/api/RetrofitInstance.kt` and `BasicApp/app/src/main/res/xml/network_security_config.xml`. Change given IP address with the one you got in previous(backend) step.
+2. Go to file `BasicApp/app/src/main/java/com/example/basicapp/screens/AdminUIScreen.kt` line 95 and set admin username and password according to your convenience.
 
 Now build the app and get apk, install on your device.
 Login to admin dashboard using above ID and password then create Security personal and share them with the security person which now can use this app to automatically log access details using Face and ID verification.
