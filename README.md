@@ -31,12 +31,43 @@ A secure face and ID verification access system powered by **InsightFace**, **Ko
 <pre>
 ```
 FaceID/
-├── backend/                   # FastAPI server, ML models, database logic
+├── Create_Database/
+    ├── Valid_User_Database/
+    ├── NewClearDB.py
+    ├── NewDBInsight.py
+    └── NewStoreEmbedding.py
+├── FaceID_Backend/                   # FastAPI server, ML models, database logic
+    ├── app/
+        ├── ml/
+            ├── User.db
+            ├── databaselog.txt
+            ├── ml_init.py
+            ├── ml_process.py
+            └── ml_verify.py
+        ├── __init__.py
+        ├── auth.py
+        ├── clear_record.py
+        ├── database.py
+        ├── main.py
+        ├── models.py
+        ├── record_logger.py
+        ├── utils.py
+        └── view_record.py
+    ├── uploads/
+        └── ...
+    ├── faceid_users.db
+    └── records.db
+├── Google_Colab_File/
+    ├── CALFW_Image_Dataset/
+    ├── Final_Result/
+    └── ...
 ├── frontend/                  # Jetpack Compose Android app
-│   └── ...
+    └── ...
+├── .gitignore
 ├── LICENSE
+├── Project_Report.pdf
 ├── README.md
-└── .gitignore
+└── requirements.txt
 ```
 </pre>
 
