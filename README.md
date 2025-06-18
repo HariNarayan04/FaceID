@@ -25,34 +25,34 @@ A secure face and ID verification access system powered by **InsightFace**, **Ko
 
 ## 📸 Sample Screenshots
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="image.png" alt="Front Page" width="30%" />
-  <img src="image-1.png" alt="Security_Person Login" width="30%" />
-  <img src="image-2.png" alt="Security Dashboard" width="30%" />
-  <img src="image-3.png" alt="Camera Screen" width="30%" />
-  <img src="image-4.png" alt="Image Upload" width="30%" />
-  <img src="image-5.png" alt="Manual Rollno. Entry" width="30%" />
-  <img src="image-6.png" alt="Result Screen" width="30%" />
-  <img src="image-7.png" alt="Admin Login" width="30%" />
-  <img src="image-8.png" alt="Admin Dashboard" width="30%" />
-  <img src="image-9.png" alt="Security Person Management" width="30%" />
-  <img src="image-10.png" alt="Verification Record" width="30%" />
+<div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+  <img src="Screenshots/image.png" alt="Front Page" width="30%" />
+  <img src="Screenshots/image-1.png" alt="Security_Person Login" width="30%" />
+  <img src="Screenshots/image-2.png" alt="Security Dashboard" width="30%" />
+  <img src="Screenshots/image-3.png" alt="Camera Screen" width="30%" />
+  <img src="Screenshots/image-4.png" alt="Image Upload" width="30%" />
+  <img src="Screenshots/image-5.png" alt="Manual Rollno. Entry" width="30%" />
+  <img src="Screenshots/image-6.png" alt="Result Screen" width="30%" />
+  <img src="Screenshots/image-7.png" alt="Admin Login" width="30%" />
+  <img src="Screenshots/image-8.png" alt="Admin Dashboard" width="30%" />
+  <img src="Screenshots/image-9.png" alt="Security Person Management" width="30%" />
+  <img src="Screenshots/image-10.png" alt="Verification Record" width="30%" />
 </div>
 
 ## 📂 Project Structure
 <pre>
 ```
 FaceID/
-├── Create_Database/
-    ├── Valid_User_Database/
+├── Create_Database/              # To test the app
+    ├── Valid_User_Database/      #
     ├── NewClearDB.py
     ├── NewDBInsight.py
     └── NewStoreEmbedding.py
-├── FaceID_Backend/                   # FastAPI server, ML models, database logic
-    ├── app/
-        ├── ml/
+├── FaceID_Backend/               # FastAPI server, ML models, database logic
+    ├── app/                      #
+        ├── ml/                   #
             ├── User.db
-            ├── databaselog.txt
+            ├── databaselog.txt   
             ├── ml_init.py
             ├── ml_process.py
             └── ml_verify.py
@@ -65,19 +65,19 @@ FaceID/
         ├── record_logger.py
         ├── utils.py
         └── view_record.py
-    ├── uploads/
+    ├── uploads/                  #
         └── ...
     ├── faceid_users.db
     └── records.db
-├── Google_Colab_File/
+├── Google_Colab_File/            #
     ├── CALFW_Image_Dataset/
     ├── Final_Result/
     └── ...
-├── frontend/                  # Jetpack Compose Android app
+├── frontend/                     # Jetpack Compose Android app
     └── ...
 ├── .gitignore
 ├── LICENSE
-├── Project_Report.pdf
+├── Project_Report.pdf            #
 ├── README.md
 └── requirements.txt
 ```
