@@ -25,7 +25,17 @@ A secure face and ID verification access system powered by **InsightFace**, **Ko
 
 ## 📸 Sample Screenshots
 
-> ![Front Page](image.png), ![Security_Person Login](image-1.png), ![Security Dashboard](image-2.png), ![Camera Screen](image-3.png), ![Image Upload](image-4.png), ![Manual Rollno. Entry](image-5.png), ![Result Screen](image-6.png), ![Admin Login](image-7.png), ![Admin Dashboard](image-8.png), ![Security Person Management](image-9.png), ![Varification Record](image-10.png)
+<img src="image.png" alt="Front Page" width="50%" />
+<img src="image-1.png" alt="Security_Person Login" width="50%" />
+<img src="image-2.png" alt="Security Dashboard" width="50%" />
+<img src="image-3.png" alt="Camera Screen" width="50%" />
+<img src="image-4.png" alt="Image Upload" width="50%" />
+<img src="image-5.png" alt="Manual Rollno. Entry" width="50%" />
+<img src="image-6.png" alt="Result Screen" width="50%" />
+<img src="image-7.png" alt="Admin Login" width="50%" />
+<img src="image-8.png" alt="Admin Dashboard" width="50%" />
+<img src="image-9.png" alt="Security Person Management" width="50%" />
+<img src="image-10.png" alt="Verification Record" width="50%" />
 
 ## 📂 Project Structure
 <pre>
