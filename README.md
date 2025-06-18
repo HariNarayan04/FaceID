@@ -25,17 +25,19 @@ A secure face and ID verification access system powered by **InsightFace**, **Ko
 
 ## 📸 Sample Screenshots
 
-<img src="image.png" alt="Front Page" width="30%" />
-<img src="image-1.png" alt="Security_Person Login" width="30%" />
-<img src="image-2.png" alt="Security Dashboard" width="30%" />
-<img src="image-3.png" alt="Camera Screen" width="30%" />
-<img src="image-4.png" alt="Image Upload" width="30%" />
-<img src="image-5.png" alt="Manual Rollno. Entry" width="30%" />
-<img src="image-6.png" alt="Result Screen" width="30%" />
-<img src="image-7.png" alt="Admin Login" width="30%" />
-<img src="image-8.png" alt="Admin Dashboard" width="30%" />
-<img src="image-9.png" alt="Security Person Management" width="30%" />
-<img src="image-10.png" alt="Verification Record" width="30%" />
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="image.png" alt="Front Page" width="30%" />
+  <img src="image-1.png" alt="Security_Person Login" width="30%" />
+  <img src="image-2.png" alt="Security Dashboard" width="30%" />
+  <img src="image-3.png" alt="Camera Screen" width="30%" />
+  <img src="image-4.png" alt="Image Upload" width="30%" />
+  <img src="image-5.png" alt="Manual Rollno. Entry" width="30%" />
+  <img src="image-6.png" alt="Result Screen" width="30%" />
+  <img src="image-7.png" alt="Admin Login" width="30%" />
+  <img src="image-8.png" alt="Admin Dashboard" width="30%" />
+  <img src="image-9.png" alt="Security Person Management" width="30%" />
+  <img src="image-10.png" alt="Verification Record" width="30%" />
+</div>
 
 ## 📂 Project Structure
 <pre>
