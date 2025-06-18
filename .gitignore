@@ -1,8 +1,6 @@
 .vscode/
 Backend_venv/
 Others/
-FaceID_Backend/app/__pycache__/
-FaceID_Backend/app/ml/__pycache__/
 # Ignore Python cache files
 __pycache__/
 *.py[cod]
