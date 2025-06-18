@@ -1,0 +1,21 @@
+# Android build system
+/build/
+.gradle/
+.idea/
+.kotlin/
+local.properties
+
+# IDE and OS-specific
+.DS_Store
+Thumbs.db
+
+# Log and patch files
+*.log
+*.patch
+
+# APK or binary outputs
+*.apk
+*.ap_
+
+# Auto-generated
+captures/
